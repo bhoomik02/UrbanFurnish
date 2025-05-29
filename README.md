@@ -44,12 +44,9 @@ UrbanFurnish is a static, front-end-only website designed to mimic a real e-comm
 - Design clean, user-focused page layouts across multiple sections of a website.
 
 ---
+## Live Demo
 
-## How to Open / View the Project
-
-1. **Download** the zip file to your local machine.
-2. Open the `index.html` file in your web browser to start browsing the website.
-3. Use **Live Server** (VS Code extension) to fully test form redirection from `contact.html` to `thankyou.html`.
+[Click here to view the site](https://bhoomik02.github.io/urbanfurnish)
 
 ---
 
@@ -59,12 +56,5 @@ UrbanFurnish is a static, front-end-only website designed to mimic a real e-comm
 - **CSS** – Styling and layout  
 - **JavaScript** – Logic for cart interaction  
 - **localStorage** – Store and retain cart data   
-
----
-
-## Help or References Used
-
-- [W3Schools] – General HTML/CSS/JS guidance
-- Photos taken from [unsplash.com]
 
 ---
