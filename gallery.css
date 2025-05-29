@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #001f3f;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px; 
+    color: gold;
+    font-size:xx-large;
+    font-family:'Anton', sans-serif;
+
+}
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    font-size: large;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #F5D14E;
+}
+
+.heading h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #001f3f;
+}
+
+.heading p {
+    font-size: 30px;
+    color:#001f3f;
+}
+
+.before-after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap;
+    background-color: #001f3f;
+}
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+  .before1 {
+    background-image: url('before1.jpg');
+  }
+  .before2 {
+    background-image: url('before2.jpg');
+  }
+  .before3 {
+    background-image: url('before3.jpg');
+  }
+  .before4 {
+    background-image: url('before4.jpg');
+  }
+  
+  .before1:hover {
+    background-image: url('after1.jpg');
+  }
+  .before2:hover {
+    background-image: url('after2.jpg');
+  }
+  .before3:hover {
+    background-image: url('after3.jpg');
+  }
+
+  .before4:hover {
+    background-image: url('after4.jpg');
+  }
+  
+.book {
+    text-align: center;
+    padding: 30px;
+    background-color: #F5D14E;
+}
+
+.btn {
+    background-color:#001f3f;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color:#001f3f;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    width: 100%;
+    
+}

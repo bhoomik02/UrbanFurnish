@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #001f3f;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px; 
+    color: gold;
+    font-size:xx-large;
+    font-family:'Anton', sans-serif;
+
+}
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+/* Page Heading */
+.heading {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F5D14E;
+}
+
+.heading h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #001f3f;
+}
+
+.heading p {
+    font-size: 30px;
+    color:#001f3f;
+}
+
+.room-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px;
+    background-color: #4682B4;
+}
+
+.room-card {
+    background:#001f3f;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    color: gold;
+}
+
+.room-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.room-card h2 {
+    padding: 20px 10px;
+    font-size: 1.4rem;
+}
+
+.room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+.footer {
+    background-color:#001f3f;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.room-card button {
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #4682B4;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.room-card button:hover {
+    background-color: #F5D14E;
+    color: #001f3f;
+}
+
+  

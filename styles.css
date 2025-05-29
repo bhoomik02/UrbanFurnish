@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #001f3f;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px; 
+    color: gold;
+    font-size:xx-large;
+    font-family:'Anton', sans-serif;
+
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.main {
+    background-image: url('newimg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #001f3f;
+}
+
+.main-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    position: fixed;
+    top: 150px;
+    left: 30%;
+}
+
+.main-content p {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    top: 220px; 
+    left: 30%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:#001f3f;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    top: 300px;
+    position: fixed;
+    left: 42%;
+}
+
+.btn:hover {
+    background-color: #428045;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffe5b4;
+    text-align: center;
+}
+
+.feature-item {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer {
+    background-color:#001f3f;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
