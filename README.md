@@ -46,7 +46,7 @@ UrbanFurnish is a static, front-end-only website designed to mimic a real e-comm
 ---
 ## Live Demo
 
-[Click here to view the site](https://bhoomik02.github.io/UrbanFurnish)
+[Click here to view the site](https://bhoomik02.github.io/UrbanFurnish/)
 
 ---
 
